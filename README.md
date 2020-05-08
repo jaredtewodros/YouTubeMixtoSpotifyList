@@ -13,6 +13,7 @@ Spotify Web API
 link-to-instructions
 
 # Code Examples
+[Flow of transfer code](https://github.com/jaredtewodros/YouTubeMixtoSpotifyList/blob/master/codeFlow.png)
 
 # Bugs/Warnings
 1. the Spotify authorization token expires about every hour, similar to the login for any other online account, so make sure to refresh often
