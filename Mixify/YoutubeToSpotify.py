@@ -24,9 +24,9 @@ from exceptions import ResponseException
 # try to find out why I couldn't pull from secrets
 channel_id = input("What is Your Youtube Account's Channel ID? ")
 # is there a way to automate refreshing the token when it expires?
-spotify_token = "BQDwqRfmwuwWC-jP6_dVOov3utarsgq8JRLnx22qORwEoaQ0Cw1lo7NsyvTJif__jaWSm4h7xyUhvH7HA_fLXZRA9FFktZWI7zErEusPRAo-gDSEcN4B1oEz9_gExjVpNz7U7IaYTAIMX8kUqo2v7R7lGq57TbGkE0p6wcy7pP4Y61tcByH0goKKAiZkd7p8NW532Z4Ff0eTZQRVPDFeTb-bH8sWl7PLGJ1FeKluelJIOVxvK5hbM2kRNCpHvgF5HzgD6S38H2aU4R5LwA"
+spotify_token = "AUTHORIZATION_TOKEN"
 # this would be easy to make a user input
-spotify_user_id = "gabrielachi"
+spotify_user_id = "USER_ID"
 target_playlist = input("What Youtube Playlist Do You Want to Add to Spotify? ")
 playlist_name = input("What Spotify Playlist Would You Like to Modify (either new or existing)? ")
 playlist_desc = input("Provide a Description for Your New Playlist: ")
